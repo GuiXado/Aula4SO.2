@@ -8,7 +8,7 @@ public class SomaMatrizThread extends Thread {
 	// O this faz referência ao parâmetro da classe
 	public SomaMatrizThread(int[] linha, int idx) {
 		this.linha = linha;
-		idLinha = idx; // arrumar isso
+		idLinha = idx;
 	}
 	
 	public void run() {
@@ -23,4 +23,5 @@ public class SomaMatrizThread extends Thread {
 		System.out.println("Linha " + idLinha + " => soma = " + soma);
 	}
 	
+
 }
